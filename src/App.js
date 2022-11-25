@@ -1,9 +1,8 @@
-// import Modal from "./components/modal/Modal";
 import { NavLink } from "react-router-dom";
 const App = () => {
     return (
       <div>
-            <NavLink to="/login"> <button>Add Movie</button></NavLink>
+            <NavLink to="/login" className={"list-container"}> <button>Add Movie</button></NavLink>
       </div>
     )
   }
